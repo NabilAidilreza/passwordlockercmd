@@ -20,7 +20,7 @@ password TEXT NOT NULL);
 ''')
 
 login_bool = False
-masterPass = "@SIR"
+masterPass = "PASSWORD"
 
 def hashPassword(input):
     hashed = hashlib.md5(input)
